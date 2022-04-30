@@ -13,7 +13,7 @@ def create_inventory():
 
 def menu_cycle(inventory):
     while True:
-        print('Menu: \n0 : Print list of products\n1 : Add/Modify\n2 : Delete\n3 : Quit')
+        print('Menu: \n0 : Print catalog\n1 : Add/Modify\n2 : Delete\n3 : Quit')
         my_input = input('Choose a menu: ')
         match my_input:
             case '0':
