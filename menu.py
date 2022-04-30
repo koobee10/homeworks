@@ -11,7 +11,7 @@ def create_inventory():
     return mydict
 
 
-def menu_cycle(inventory, my_input=""):
+def menu_cycle(inventory):
     while True:
         print('Menu: \n0 : Print list of products\n1 : Add/Modify\n2 : Delete\n3 : Quit')
         my_input = input('Choose a menu: ')
